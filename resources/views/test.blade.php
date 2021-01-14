@@ -3,9 +3,9 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>E-commerce </title>
+        <title>Welcome {{$name}}!</title>
     </head>
     <body class="antialiased">
-    <h1>Welcome</h1>
+    <h1>Username: {{$name}} {{$surname}} </h1>
     </body>
 </html>
